@@ -3,6 +3,8 @@ project(Algolang)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Algolang example/main.cpp
-                Algorithm
-                dataDtructure)
+add_executable(Algolang
+        example
+        Algorithm
+        dataDtructure
+        README.md)
