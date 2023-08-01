@@ -1,0 +1,3 @@
+D:/File/CPPcode/Algolang/cmake-build-debug/CMakeFiles/Algolang.dir
+D:/File/CPPcode/Algolang/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/File/CPPcode/Algolang/cmake-build-debug/CMakeFiles/rebuild_cache.dir
