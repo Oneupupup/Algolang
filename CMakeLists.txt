@@ -7,4 +7,4 @@ add_executable(Algolang
         example
         Algorithm
         dataDtructure
-        README.md)
+)
