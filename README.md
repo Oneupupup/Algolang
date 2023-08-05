@@ -8,6 +8,7 @@
 ## 目前已经实现的数据结构
 - [x] `TreeNode`
 - [x] `String`
+- [x] `Vector`
 
 ## 目前已经实现的算法
 - [ ] `KMP`
