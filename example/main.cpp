@@ -1,22 +1,26 @@
 #include <iostream>
-#include <vector>
-#include "../Algorithm/Algo_sort.h"
-
+#include "../dataDtructure/Algo_listnode.h"
 
 using namespace algo;
 
 int main() {
-    int arr[] = {1, 3, 2, 5, 4, 6, 7, 9, 8};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    bubbleSort(arr, n);
-    for (int i = 0; i < n; ++i) {
-        std::cout << arr[i] << " ";
+    auto *head = new ListNode(1);
+    ListNode *p = head;
+    for (int i = 2; i < 6; ++i) {
+        p->next = new ListNode(i);
+        p = p->next;
+    }
+    p = head;
+    while (p) {
+        std::cout << p->val << " ";
+        p = p->next;
     }
     std::cout << std::endl;
 
-    std::vector<int> vec = {1, 3, 2, 5, 4, 6, 7, 9, 8};
-    bubbleSort(vec);
-    for (int i : vec) {
-        std::cout << i << " ";
+    while(head){
+        p = head->next;
+        delete head;
+        head = p;
     }
+    return 0;
 }

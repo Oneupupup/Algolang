@@ -8,6 +8,7 @@
 
 ## 目前已经实现的数据结构
 - [x] `TreeNode`
+- [x] `ListNode`
 - [x] `String`
 - [x] `Vector`
 
