@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include "../Algorithm/Algo_sortvec.h"
 #include "../Algorithm/Algo_sort.h"
 
 
