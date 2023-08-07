@@ -4,6 +4,7 @@
 例如手写 `memcpy` 、实现一个 `string` 等等。
 ## 目前已经实现的函数
 - [x] `memcpy`
+- [x] `memset`
 - [x] `sort`
 
 ## 目前已经实现的数据结构
